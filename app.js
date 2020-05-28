@@ -121,6 +121,7 @@
 
 
     //Ejercicio 4 con promt
+    //LISTO
     var compu;
     function aleatorio(min, max){
         var numero = Math.floor(Math.random() * 2);

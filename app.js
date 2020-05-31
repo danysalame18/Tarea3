@@ -62,7 +62,7 @@
 
     //2. Crear una calculadora con funciones (Suma, Rest, multiplicacion y division)
     //LISTO
-    / suma(suma1 , suma2){
+    function suma(suma1 , suma2){
         console.log(suma1 + suma2)
     }
     suma (5 , 6)

@@ -1,7 +1,7 @@
 /*1. Rehacer piedra Papel o tijera con una funcion y que de la opcion de volver 
         a jugar (Con un ciclo)
         LISTO*/
-       function ppt(player1, player2){
+       /*function ppt(player1, player2){
             if(player1 == "piedra" && player2 == "papel"){
                 console.log("Gano Jugador 2")
             }
@@ -28,11 +28,11 @@
                 console.log("algo esta mal")
             }
     }
-    ppt("piedra" , "tijera")
+    ppt("piedra" , "tijera")*/
 
     //1 piedra 2 papel 3 tijera 
     //LISTO
-    function ppt2(player1, player2){
+    /*function ppt2(player1, player2){
              if(player1 == 1 && player2 == 2){
                 console.log("Gano Jugador 2")
         }
@@ -58,11 +58,11 @@
             console.log("Algo esta mal")
         }
     }
-    ppt2 (1 , 2)
+    ppt2 (1 , 2)*/
 
     //2. Crear una calculadora con funciones (Suma, Rest, multiplicacion y division)
     //LISTO
-    function suma(suma1 , suma2){
+    /*function suma(suma1 , suma2){
         console.log(suma1 + suma2)
     }
     suma (5 , 6)
@@ -80,7 +80,7 @@
     function division (divi1 , divi2){
         console.log(divi1 / divi2)
     }
-    division (18 , 3)
+    division (18 , 3)*/
 
     //4. Usa la funcion Math.random en piedra papel o tijera
     //LISTO
@@ -89,9 +89,10 @@
         var numero = Math.floor(Math.random() * 2);
         return numero;
     }
-            compu = aleatorio (0,2)
+            
            // console.log(compu)
     function player(playerx){
+        compu = aleatorio (0,2)
             if(playerx == 0 && compu == 1){
                 console.log("Perdiste, la maquina escogio Papel")
         }
@@ -122,7 +123,7 @@
 
     //Ejercicio 4 con promt
     //LISTO
-    var compu;
+    /*var compu;
     function aleatorio(min, max){
         var numero = Math.floor(Math.random() * 2);
         return numero;
@@ -153,5 +154,4 @@
             }
             else{
                 console.log("Algo esta mal")
-            }
-            
+            }*/
